@@ -691,7 +691,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " Markdown highlighting ---------------------------------------------------{{{
   call <sid>X('markdownUrl',              s:mono_3,  '', '')
   call <sid>X('markdownBold',             s:hue_6,   '', 'bold')
-  call <sid>X('markdownItalic',           s:hue_6,   '', 'bold')
+  call <sid>X('markdownItalic',           s:hue_6,   '', s:italic)
   call <sid>X('markdownCode',             s:hue_4,   '', '')
   call <sid>X('markdownCodeBlock',        s:hue_5,   '', '')
   call <sid>X('markdownCodeDelimiter',    s:hue_4,   '', '')
